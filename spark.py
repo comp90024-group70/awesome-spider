@@ -22,11 +22,15 @@ spark = SparkSession.builder \
 spark.sparkContext.setLogLevel("WARN")   
 #spark = SparkSession.builder.master("local[1]").appName("SparkByExamples.com").getOrCreate()
                     
-dp = spark.read.json("/Users/byronsun/Desktop/c2/twitter-huge.json")
+dp_raw = spark.read.json("/Users/byronsun/Desktop/c2/twitter-huge.json")
 #dp.printSchema()
 #dp.show()
 
-dp = dp.select(col("doc.data.author_id"), col("doc.data.text"), col("doc.data.sentiment"),
+dp = dp_raw.select(col("doc.data.author_id"), col("value.tokens"), col("doc.data.sentiment"),
                             col("doc.includes"))
+dp = dp.na.drop()
+# dp.count() = 3233513
 dp.show()
-#df = dp.toPandas()
+#dp.write.csv("/Users/byronsun/Desktop/c2/zipcodes")
+#dp.write.parquet("/Users/byronsun/Desktop/c2/twitter.parquet")
+dp.coalesce(1).write.csv('/Users/byronsun/Desktop/c2/twitter.csv')
