@@ -1,0 +1,102 @@
+{
+  "account": {
+    "acct": "Reuters@press.coop",
+    "avatar": "https://o.mastodon.au/cache/accounts/avatars/109/866/428/432/738/356/original/70b8165ab9b7af40.jpg",
+    "avatar_static": "https://o.mastodon.au/cache/accounts/avatars/109/866/428/432/738/356/original/70b8165ab9b7af40.jpg",
+    "bot": true,
+    "created_at": "2007-03-20 00:00:00+00:00",
+    "discoverable": true,
+    "display_name": "Reuters :press:",
+    "emojis": [
+      {
+        "shortcode": "press",
+        "static_url": "https://o.mastodon.au/cache/custom_emojis/images/000/099/369/static/8ef14563dc76f1f2.png",
+        "url": "https://o.mastodon.au/cache/custom_emojis/images/000/099/369/original/8ef14563dc76f1f2.png",
+        "visible_in_picker": true
+      }
+    ],
+    "fields": [
+      {
+        "name": "Location",
+        "value": "Around the world",
+        "verified_at": null
+      },
+      {
+        "name": "Twitter",
+        "value": "<a href=\"https://hello.coop/Twttr/Reuters\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">hello.coop/Twttr/Reuters</span><span class=\"invisible\"></span></a>",
+        "verified_at": "2023-04-14T00:58:48.251+00:00"
+      },
+      {
+        "name": "Website",
+        "value": "<a href=\"http://www.reuters.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">http://www.</span><span class=\"\">reuters.com</span><span class=\"invisible\"></span></a>",
+        "verified_at": null
+      }
+    ],
+    "followers_count": 1170,
+    "following_count": 0,
+    "group": false,
+    "header": "https://o.mastodon.au/cache/accounts/headers/109/866/428/432/738/356/original/46ee9347318c1a50.jpeg",
+    "header_static": "https://o.mastodon.au/cache/accounts/headers/109/866/428/432/738/356/original/46ee9347318c1a50.jpeg",
+    "id": 109866428432738356,
+    "last_status_at": "2023-05-02 00:00:00",
+    "locked": false,
+    "note": "<p>Top and breaking news, pictures and videos from Reuters. For more breaking business news, follow <span class=\"h-card\"><a href=\"https://press.coop/@ReutersBiz\" class=\"u-url mention\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@<span>ReutersBiz</span></a></span>.</p><p>( account mirrored by <a href=\"https://press.coop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><span class=\"invisible\">https://</span><span class=\"\">press.coop</span><span class=\"invisible\"></span></a> )</p>",
+    "statuses_count": 4831,
+    "url": "https://press.coop/@Reuters",
+    "username": "Reuters"
+  },
+  "card": null,
+  "content": "<p>A cockroach was seen crawling on the Met Gala red carpet, which caused a stir during the event  <a href=\"https://press.coop/tags/press\" class=\"mention hashtag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#<span>press</span></a></p>",
+  "created_at": "2023-05-02 13:01:05+00:00",
+  "edited_at": null,
+  "emojis": [],
+  "favourites_count": 0,
+  "filtered": [],
+  "id": 110299217002044661,
+  "in_reply_to_account_id": null,
+  "in_reply_to_id": null,
+  "language": "en",
+  "media_attachments": [
+    {
+      "blurhash": "UhJ8Y9oz00V@x]sooyNGxZazkCkCR5X9ozae",
+      "description": "A cockroach causes stir at Met Gala – Entertainment",
+      "id": 110299216951949060,
+      "meta": {
+        "original": {
+          "aspect": 1.7777777777777777,
+          "height": 675,
+          "size": "1200x675",
+          "width": 1200
+        },
+        "small": {
+          "aspect": 1.7777777777777777,
+          "height": 360,
+          "size": "640x360",
+          "width": 640
+        }
+      },
+      "preview_remote_url": null,
+      "preview_url": "https://o.mastodon.au/cache/media_attachments/files/110/299/216/951/949/060/small/bb45445c9ec3564b.jpg",
+      "remote_url": "https://pbs.twimg.com/amplify_video_thumb/1653363896617451520/img/j4t0AblrSATbYonx.jpg",
+      "text_url": null,
+      "type": "image",
+      "url": "https://o.mastodon.au/cache/media_attachments/files/110/299/216/951/949/060/original/bb45445c9ec3564b.jpg"
+    }
+  ],
+  "mentions": [],
+  "poll": null,
+  "reblog": null,
+  "reblogs_count": 0,
+  "replies_count": 0,
+  "sensitive": false,
+  "spoiler_text": "",
+  "tags": [
+    {
+      "name": "press",
+      "url": "https://mastodon.au/tags/press"
+    }
+  ],
+  "uri": "https://press.coop/users/Reuters/statuses/110299215649199499",
+  "url": "https://press.coop/@Reuters/110299215649199499",
+  "visibility": "public"
+}
