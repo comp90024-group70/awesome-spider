@@ -1,6 +1,6 @@
 from mastodon import Mastodon, StreamListener
 import json
-import db
+import uk.db as db
 
 MASTODON_ACCESS_TOKEN = "b9SFo6O26cvkhlmpNxmzO7UELoaazj3Rbmsuw5un784"
 # mastodon = Mastodon(api_base_url='https://mastodon.online', access_token = os.environ['MASTODON_ACCESS_TOKEN'])
