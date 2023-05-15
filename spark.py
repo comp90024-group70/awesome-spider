@@ -22,7 +22,7 @@ spark = SparkSession.builder \
 spark.sparkContext.setLogLevel("WARN")   
 #spark = SparkSession.builder.master("local[1]").appName("SparkByExamples.com").getOrCreate()
                     
-dp_raw = spark.read.json("/Users/byronsun/Desktop/c2/twitter-huge.json")
+dp_raw = spark.read.json("../Data/twitter-huge.json")
 #dp.printSchema()
 #dp.show()
 
@@ -33,4 +33,4 @@ dp = dp.na.drop()
 dp.show()
 #dp.write.csv("/Users/byronsun/Desktop/c2/zipcodes")
 #dp.write.parquet("/Users/byronsun/Desktop/c2/twitter.parquet")
-dp.coalesce(1).write.csv('/Users/byronsun/Desktop/c2/twitter.csv')
+dp.coalesce(1).write.csv('../Data/twitter_raw.csv')
