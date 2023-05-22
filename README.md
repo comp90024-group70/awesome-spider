@@ -13,3 +13,5 @@
 7. `Data_analysis.ipynb`: Including preliminary analysis of statistical distritions and geospatial visualizations.
 8. `sudo_process.ipynb`: Basically merge and process SUDO data with shapefile.
 10. `ADO_process.ipynb`: Basically merge and process ADO data with shapefile.
+
+ **NB:** The geospatial visualizations in `Data_analysis.ipynb` will be shown as the main map on our website, just basic analysis for the report and `overview` on the web.
