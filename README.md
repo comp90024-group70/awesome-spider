@@ -1,5 +1,6 @@
 # awesome-spider, README.md
-## GROUP 70
+## Group: 70
+## Author: Yinuo Sun
 
 **Goal:** awesome-spider repository is for data extraction and data processing.
 **Execution process:** Data extraction include the data of `twitter-huge.json`, Mastodon crawling, ADO API, "Greater Capital City" (GCC) and "Statistical Area Level 4" (SA4) shapefiles from Australia Bureau of Statistics (ABS). The part of data processing is mainly focusing on data cleansing and data aggregation to convert data format be readable and compatible on CouchDB. 
